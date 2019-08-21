@@ -1,6 +1,6 @@
 {
   "name": "apollo-modulizer",
-  "description": "Modularizing your Apollo Server schema code",
+  "description": "Modularizing your Apollo GraphQL schema code",
   "version": "0.1.2",
   "license": "MIT",
   "author": "Vien Dinh <maxvien@gmail.com>",
