@@ -1,11 +1,5 @@
 const { ApolloServer } = require('apollo-server');
-const { allModules } = require('apollo-modulizer');
-
-const user = require('./modules/user.module');
-const post = require('./modules/post.module');
-const query = require('./modules/query.module');
-
-const { typeDefs, resolvers } = allModules([user, post, query]);
+const { typeDefs, resolvers } = require('./modules');
 
 const server = new ApolloServer({ typeDefs, resolvers });
 
