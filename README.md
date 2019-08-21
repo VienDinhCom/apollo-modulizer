@@ -1,6 +1,6 @@
 # apollo-modulizer
 
-Modularizing your GraphQL schema code
+Modularizing your Apollo GraphQL schema code
 
 ```
 yarn add apollo-modulizer
