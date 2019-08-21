@@ -54,7 +54,7 @@ const Query = require('./query.module');
 module.exports = { typeDefs, resolvers } = allModules([User, Post, Query]);
 ```
 
-### Launch with Apollo Server
+### Launch With Apollo Server
 
 ```
 const { ApolloServer } = require('apollo-server');
