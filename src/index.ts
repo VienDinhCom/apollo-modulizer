@@ -45,9 +45,11 @@ export function getResolvers(modules: ApolloModule[]) {
   return resolvers;
 }
 
-export function allModules(modules: ApolloModule[]) {
+export function mergeModules(modules: ApolloModule[]) {
   return {
     typeDefs: getTypeDefs(modules),
     resolvers: getResolvers(modules),
   };
 }
+
+export const allModules = mergeModules;
