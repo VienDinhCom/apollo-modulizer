@@ -10,6 +10,8 @@ yarn add apollo-modulizer
 npm install --save apollo-modulizer
 ```
 
+Hit the **Star** button if you love this project ⭐️
+
 ## Usage
 
 You can get the full example here: https://github.com/Maxvien/apollo-modulizer/tree/master/example
